@@ -1,5 +1,7 @@
 {
   "name": "ex07",
+  "//": "type module을 설정함으로써 mjs가 아닌 js 확장자를 사용하면서 ES 모듈을 유지할 수 있다.",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
