@@ -26,7 +26,7 @@ exports.fn02 = function(param) {
     /*
      비동기 코드... ex) file io, network, SQL to DB, setTimer
     */
-    return new Promise(() => {
+    return new Promise((resolve, reject) => {
         console.log("fn02: some code run....");
 
         setTimeout(function() {
